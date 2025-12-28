@@ -1,0 +1,57 @@
+:root {
+--primary: #f63d4a;
+}
+
+
+body {
+margin: 0;
+font-family: Georgia, serif;
+background: #f4f4f4;
+color: #111;
+}
+
+
+.top-bar {
+background: var(--primary);
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+
+.logo {
+height: 70px;
+}
+
+
+.tagline {
+font-size: 14px;
+opacity: 0.9;
+}
+
+
+.container {
+max-width: 800px;
+margin: 40px auto;
+background: white;
+padding: 30px;
+}
+
+
+.article-preview h2 a {
+color: var(--primary);
+text-decoration: none;
+}
+
+
+.meta {
+color: gray;
+font-size: 14px;
+}
+
+
+footer {
+text-align: center;
+padding: 20px;
+border-top: 1px solid #ccc;
+}
